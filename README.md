@@ -1,12 +1,13 @@
 # SeqNT
 Sequential Network Tomography : Exploiting the Temporal Correlation in Network Monitoring
-sequential network tomography infers link metrics by exploiting the temporal correlation of link state
+
+Sequential network tomography infers link metrics by exploiting the temporal correlation of link state
 # setup  
 ## Requirements:
 matlab (>=R2016a)
 ## topology and routing matrix
-1. Run `www` to generate the topology, including the adjacency matrix of the graph 
-2. run `routingMatrixGenFromAdja.m` to generate the routing matrix.
+1. Use [COLD](https://github.com/rhysbowden/COLD) or other tools to generate the topology, including the adjacency matrix of the graph 
+2. Run `routingMatrixGenFromAdja.m` to generate the routing matrix.
 ## files:
 * SBT.m，Sequential boolean tomography
 * SAT_cvx.m, Sequential Anolog tomography
