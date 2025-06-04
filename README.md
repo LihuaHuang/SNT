@@ -24,6 +24,7 @@ The run.m invoke all the recovery methods. The parameters are
 * d: Number of link state transitions
 * m1: number of measurements at time 1
 * m2: number of measurements at time t>1
+  
 An example usage is
 ```matlab
 run('matlab.mat',1,1200,600)
